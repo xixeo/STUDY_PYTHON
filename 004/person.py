@@ -19,7 +19,8 @@ class Student(Person, Dept):
       self.syear = syear
 
     def describe_student(self):
-      print(f'id = {self.pid}, name = {self.pname}, age = {self.age} id = {self.sid}, year = {self.syear}, department = {self.depart}')
+      print(f'id = {self.pid}, name 
+            = {self.pname}, age = {self.age} id = {self.sid}, year = {self.syear}, department = {self.depart}')
 
 
 s1 = Student(1, 'jang', 30, 1, 2024, 'computer')
